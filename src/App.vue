@@ -6,10 +6,12 @@
 
 <script>
 import { defineAsyncComponent } from 'vue';
+import { mapGetters } from 'vuex';
+
 const DefaultLayout = defineAsyncComponent(() =>
-  import('@/layouts/defaultLayout.vue')
+  import('@/layouts/Default.vue')
 );
-const Content = defineAsyncComponent(() => import('@/layouts/content.vue'));
+const Content = defineAsyncComponent(() => import('@/layouts/Sidebar.vue'));
 
 export default {
   name: 'App',
@@ -18,9 +20,12 @@ export default {
     Content
   },
   computed: {
-    currentLayout() {
-      return this.$store.state.layout;
-    }
+    ...mapGetters({
+      currentLayout: 'currentLayout'
+    })
+    // currentLayout() {
+    //   return this.$store.state.layout;
+    // }
   }
 };
 </script>
