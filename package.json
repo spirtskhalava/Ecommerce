@@ -45,7 +45,9 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {},
+    "rules": {
+      "quotes": ["error", "single"]
+    },
     "overrides": [
       {
         "files": [
