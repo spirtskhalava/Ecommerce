@@ -14,17 +14,17 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item">
+            <li class="nav-item px-3">
               <router-link class="nav-link" :to="{ name: 'About' }"
                 >About</router-link
               >
             </li>
-            <li class="nav-item">
+            <li class="nav-item px-3">
               <a class="nav-link" href="#">Pricing</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item px-3">
               <a
                 class="nav-link disabled"
                 href="#"
@@ -34,6 +34,11 @@
               >
             </li>
           </ul>
+        </div>
+        <div>
+          <ButtonDefault>
+            <i class="bi bi-cart4"></i>
+          </ButtonDefault>
         </div>
       </div>
     </nav>

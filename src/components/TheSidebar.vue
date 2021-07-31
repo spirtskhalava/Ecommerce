@@ -7,7 +7,7 @@
     </div>
     <div class="d-flex align-items-center justify-content-center">
       <ButtonDefault>
-          <i class="bi bi-cart-4"></i>
+        <i class="bi bi-cart4"></i>
       </ButtonDefault>
     </div>
     <nav class="nav flex-column">
