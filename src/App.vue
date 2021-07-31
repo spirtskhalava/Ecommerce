@@ -1,17 +1,19 @@
 <template>
   <component :is="currentLayout">
-    <router-view/>
+    <router-view />
   </component>
 </template>
 
 <script>
-import { defineAsyncComponent } from 'vue'
-const DefaultLayout = defineAsyncComponent(() => import('@/layouts/defaultLayout.vue'))
+import { defineAsyncComponent } from 'vue';
+const DefaultLayout = defineAsyncComponent(() =>
+  import('@/layouts/defaultLayout.vue')
+);
 const Content = defineAsyncComponent(() => import('@/layouts/content.vue'));
 
 export default {
-  name:'App',
-  components:{
+  name: 'App',
+  components: {
     DefaultLayout,
     Content
   },
@@ -20,5 +22,5 @@ export default {
       return this.$store.state.layout;
     }
   }
-}
+};
 </script>
