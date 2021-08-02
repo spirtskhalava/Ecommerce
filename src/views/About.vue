@@ -6,9 +6,5 @@
 
 
 <script>
-export default {
-  beforeMount() {
-this.$store.commit('SET_LAYOUT', 'Content');
-  }
-}
+export default {};
 </script>

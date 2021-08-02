@@ -1,6 +1,7 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router';
+import store from '../store';
 
-import Home from '../views/Home.vue'
+import Home from '../views/Home.vue';
 
 
 const routes = [{
@@ -15,10 +16,21 @@ const routes = [{
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
         component: () =>
-            import ('../views/About.vue'),
+            import('../views/About.vue'),
         meta: {
             layout: 'Content'
-        }
+        },
+        children: [
+            {
+                path: '/company', // /about-us/company
+                name: 'aboutCompany',
+                component: {
+                    render(h) {
+                        return h('Company');
+                    }
+                }
+            }
+        ]
     },
     {
         path: '/product/:slug/more',
@@ -43,23 +55,21 @@ const routes = [{
         name: 'Register',
         component: () =>
             import ('../views/Register.vue'),
+    },
+    {
+        path: '/:match(.*)',
+        component: () => import('../views/NotFound.vue')
     }
-    // {
-    //     path: '/.*',
-
-    // }
-
-]
+];
 
 const router = createRouter({
     history: createWebHistory(process.env.BASE_URL),
     routes
 });
 
-router.beforeEach((to, from) => {
-    if (from.meta && from.meta.layout) {
+router.beforeEach((to) => {
+    const layout = to?.meta?.layout || 'DefaultLayout';
+    store.commit('SET_LAYOUT', layout);
+});
 
-    }
-})
-
-export default router
+export default router;

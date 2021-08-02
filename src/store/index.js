@@ -9,6 +9,9 @@ export default createStore({
             state.layout = payload;
         }
     },
+    getters: {
+        currentLayout: state => state.layout
+    },
     actions: {},
     modules: {}
 })
