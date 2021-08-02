@@ -28,38 +28,40 @@
   </div>
 </template>
 <script>
-
 export default {
   data() {
     return {
       user: {
-        email: "",
-        password: "",
-      },
+        email: '',
+        password: ''
+      }
     };
   },
   computed: {
     isFormValid() {
-      return this.isValid("password") &&  this.isValid("email");
-    },
+      return this.isValid('password') && this.isValid('email');
+    }
   },
   methods: {
     isValid(prop) {
       switch (prop) {
-        case "email":
+        case 'email':
           return this.user.email !== '';
-        case "password":
+        case 'password':
           return this.user.password.length >= 6;
         default:
           return false;
       }
     },
     handleForm() {
-      if(this.user.email=='sandro1211@gmail.com' && this.user.password=='1234567'){
-        alert("logged in");  
+      if (
+        this.user.email == 'sandro1211@gmail.com' &&
+        this.user.password == '1234567'
+      ) {
+        alert('logged in');
         this.$router.push('/Home');
       }
-    },
-  },
+    }
+  }
 };
 </script>
