@@ -16,21 +16,19 @@ const routes = [{
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
         component: () =>
-            import('../views/About.vue'),
+            import ('../views/About.vue'),
         meta: {
             layout: 'Content'
         },
-        children: [
-            {
-                path: '/company', // /about-us/company
-                name: 'aboutCompany',
-                component: {
-                    render(h) {
-                        return h('Company');
-                    }
+        children: [{
+            path: '/company', // /about-us/company
+            name: 'aboutCompany',
+            component: {
+                render(h) {
+                    return h('Company');
                 }
             }
-        ]
+        }]
     },
     {
         path: '/product/:slug/more',
@@ -57,8 +55,15 @@ const routes = [{
             import ('../views/Register.vue'),
     },
     {
+        path: '/products',
+        name: 'Prodcuts',
+        component: () =>
+            import ('../views/Products')
+    },
+    {
         path: '/:match(.*)',
-        component: () => import('../views/NotFound.vue')
+        component: () =>
+            import ('../views/NotFound.vue')
     }
 ];
 
@@ -68,8 +73,8 @@ const router = createRouter({
 });
 
 router.beforeEach((to) => {
-    const layout = to?.meta?.layout || 'DefaultLayout';
-    store.commit('SET_LAYOUT', layout);
+    //  const layout = to ? .meta ? .layout || 'DefaultLayout';
+    // store.commit('SET_LAYOUT', layout);
 });
 
 export default router;
