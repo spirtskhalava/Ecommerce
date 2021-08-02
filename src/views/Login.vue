@@ -1,6 +1,6 @@
 <template>
   <div class="container mt-3">
-    <form @submit.prevent="handleForm" action="">
+    <form @submit.prevent="handleForm" action="/login" method="POST">
       <div class="mb-3">
         <input
           type="email"
@@ -27,6 +27,7 @@
     </form>
   </div>
 </template>
+
 <script>
 export default {
   data() {
@@ -65,3 +66,10 @@ export default {
   }
 };
 </script>
+
+
+<style lang="scss" scoped>
+input:invalid {
+  border-color: red;
+}
+</style>
