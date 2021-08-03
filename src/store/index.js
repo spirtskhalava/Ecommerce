@@ -1,5 +1,5 @@
 import { createStore } from 'vuex';
-
+import cart from './cart'
 export default createStore({
     state: {
         layout: 'DefaultLayout'
@@ -13,5 +13,8 @@ export default createStore({
         currentLayout: state => state.layout
     },
     actions: {},
-    modules: {}
+    modules: {
+        cart
+
+    }
 });

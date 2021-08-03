@@ -7,6 +7,9 @@
       <router-link :to="`/product/${product.slug}`" class="btn btn-primary"
         >Learn More</router-link
       >
+      <ButtonDefault @click="addCart">
+          <i class="bi bi-cart-plus"></i>
+      </ButtonDefault>
     </div>
   </div>
 </template>
@@ -18,6 +21,13 @@ export default {
       type: Object,
       required: true
     }
+  },
+  methods:{
+  addCart(){
+    this.$store.commit("cart/add",this.product);
+    console.log(this.product);
+  }
+
   }
 };
 </script>
