@@ -5,7 +5,7 @@
     "slug": "expedita-perferendis-eaque",
     "price": 596,
     "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-    "quantity": 18
+    "inventoryCount": 18
   },
   {
     "id": "9a737196-6e65-45ff-9677-294e36ed84af",
@@ -13,7 +13,7 @@
     "slug": "et-veritatis-harum",
     "price": 3176,
     "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-    "quantity": 23
+    "inventoryCount": 23
   },
   {
     "id": "236fc184-6092-4bfe-a1f2-2a8303fc8a1c",
@@ -21,7 +21,7 @@
     "slug": "dolores-officiis-aspernatur",
     "price": 4759,
     "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
-    "quantity": 2
+    "inventoryCount": 2
   },
   {
     "id": "2778d7ac-45e0-4df1-b22b-1f7b1960a5bd",
@@ -29,7 +29,7 @@
     "slug": "iste-incidunt-voluptate",
     "price": 4594,
     "description": "The Football Is Good For Training And Recreational Purposes",
-    "quantity": 3
+    "inventoryCount": 3
   },
   {
     "id": "f0220c4e-b890-4de7-9c3f-ceb7546e6b5a",
@@ -37,7 +37,7 @@
     "slug": "reprehenderit-doloribus-ut",
     "price": 3735,
     "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-    "quantity": 2
+    "inventoryCount": 2
   },
   {
     "id": "f78ee126-4ad2-4dcf-ae90-0a9b2a485280",
@@ -45,7 +45,7 @@
     "slug": "aliquid-vitae-alias",
     "price": 2647,
     "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
-    "quantity": 8
+    "inventoryCount": 8
   },
   {
     "id": "54d9e5f9-b26a-4aa7-8583-aefa7ffaa311",
@@ -53,7 +53,7 @@
     "slug": "voluptas-optio-nihil",
     "price": 4678,
     "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-    "quantity": 22
+    "inventoryCount": 22
   },
   {
     "id": "7da54d77-49fa-4cb6-89ce-5f92464864bf",
@@ -61,7 +61,7 @@
     "slug": "maxime-et-fuga",
     "price": 349,
     "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-    "quantity": 19
+    "inventoryCount": 19
   },
   {
     "id": "ac29b1cf-c7dd-4539-81a2-05fe4509665b",
@@ -69,7 +69,7 @@
     "slug": "et-eveniet-neque",
     "price": 1413,
     "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-    "quantity": 5
+    "inventoryCount": 5
   },
   {
     "id": "0a39b662-b7f8-4570-9530-d88e330dd58a",
@@ -77,7 +77,7 @@
     "slug": "tempore-necessitatibus-eum",
     "price": 3238,
     "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-    "quantity": 23
+    "inventoryCount": 23
   },
   {
     "id": "bbdfe9e8-d965-40d2-b713-fbab6c1284fb",
@@ -85,7 +85,7 @@
     "slug": "quis-mollitia-et",
     "price": 744,
     "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-    "quantity": 8
+    "inventoryCount": 8
   },
   {
     "id": "99ae2c6c-c6f9-4c44-b218-641c6055ecd4",
@@ -93,7 +93,7 @@
     "slug": "quo-culpa-dolor",
     "price": 2260,
     "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
-    "quantity": 7
+    "inventoryCount": 7
   },
   {
     "id": "ce02fdc2-83d0-4482-8f80-e223928666e2",
@@ -101,7 +101,7 @@
     "slug": "sint-temporibus-iusto",
     "price": 1335,
     "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-    "quantity": 13
+    "inventoryCount": 13
   },
   {
     "id": "0cf08957-af70-475a-bd99-a74fb53fc4fb",
@@ -109,7 +109,7 @@
     "slug": "at-dolor-cupiditate",
     "price": 2345,
     "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-    "quantity": 14
+    "inventoryCount": 14
   },
   {
     "id": "9d3599a7-ca4c-41bd-ad7b-433b0f789bdf",
@@ -117,7 +117,7 @@
     "slug": "consequatur-iusto-quia",
     "price": 4305,
     "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-    "quantity": 22
+    "inventoryCount": 22
   },
   {
     "id": "1af99ead-e8a8-4bd8-b872-238f8ac87381",
@@ -125,7 +125,7 @@
     "slug": "qui-aperiam-exercitationem",
     "price": 3609,
     "description": "The Football Is Good For Training And Recreational Purposes",
-    "quantity": 10
+    "inventoryCount": 10
   },
   {
     "id": "17195ad4-edf1-4221-af56-7d908c875aa2",
@@ -133,7 +133,7 @@
     "slug": "quidem-dolores-perferendis",
     "price": 875,
     "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-    "quantity": 26
+    "inventoryCount": 26
   },
   {
     "id": "66586252-c1a4-45e5-a400-5647916b4e8c",
@@ -141,7 +141,7 @@
     "slug": "nemo-expedita-optio",
     "price": 4352,
     "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
-    "quantity": 17
+    "inventoryCount": 17
   },
   {
     "id": "3718cc87-dc6c-48c1-a148-983bfaf295ce",
@@ -149,7 +149,7 @@
     "slug": "cum-molestiae-porro",
     "price": 1121,
     "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-    "quantity": 15
+    "inventoryCount": 15
   },
   {
     "id": "50c0d17b-1c44-4080-b94b-edc07e6be39e",
@@ -157,7 +157,7 @@
     "slug": "repellat-quasi-voluptatem",
     "price": 3224,
     "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-    "quantity": 26
+    "inventoryCount": 26
   },
   {
     "id": "c8212077-1edc-4f71-8044-28f0e7e8f999",
@@ -165,7 +165,7 @@
     "slug": "fugiat-sed-fugiat",
     "price": 4305,
     "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-    "quantity": 28
+    "inventoryCount": 28
   },
   {
     "id": "50494d13-d161-42b9-b1b3-161be85b2fcf",
@@ -173,7 +173,7 @@
     "slug": "voluptas-nisi-consequuntur",
     "price": 1953,
     "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-    "quantity": 5
+    "inventoryCount": 5
   },
   {
     "id": "c5cb2480-957e-4902-82ec-633a17079166",
@@ -181,7 +181,7 @@
     "slug": "at-nobis-deserunt",
     "price": 3344,
     "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-    "quantity": 26
+    "inventoryCount": 26
   },
   {
     "id": "acd75235-566c-4980-bdec-eefe73fddd27",
@@ -189,7 +189,7 @@
     "slug": "consequatur-voluptates-eveniet",
     "price": 1594,
     "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-    "quantity": 20
+    "inventoryCount": 20
   },
   {
     "id": "466da402-e089-4da0-9d1d-bf3d4ac7a09d",
@@ -197,7 +197,7 @@
     "slug": "voluptatem-perferendis-voluptate",
     "price": 3226,
     "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-    "quantity": 10
+    "inventoryCount": 10
   },
   {
     "id": "fcda07ee-4d82-4e85-9ff5-78ca64dcfa1f",
@@ -205,7 +205,7 @@
     "slug": "ut-consectetur-quae",
     "price": 539,
     "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-    "quantity": 28
+    "inventoryCount": 28
   },
   {
     "id": "f1ae29d5-0dc6-4619-a155-b000c35ae0f8",
@@ -213,7 +213,7 @@
     "slug": "molestiae-et-dolorem",
     "price": 2385,
     "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-    "quantity": 26
+    "inventoryCount": 26
   },
   {
     "id": "268cff93-6332-4dd3-8b94-1ab9576180de",
@@ -221,7 +221,7 @@
     "slug": "veniam-qui-consequatur",
     "price": 4862,
     "description": "The Football Is Good For Training And Recreational Purposes",
-    "quantity": 25
+    "inventoryCount": 25
   },
   {
     "id": "6d673c88-3c6d-47f0-afab-dc9364db6550",
@@ -229,7 +229,7 @@
     "slug": "odio-pariatur-corrupti",
     "price": 4257,
     "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-    "quantity": 27
+    "inventoryCount": 27
   },
   {
     "id": "f34616c7-3d0d-43ea-bd73-52d37e60ebbd",
@@ -237,7 +237,7 @@
     "slug": "et-voluptas-dignissimos",
     "price": 4321,
     "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-    "quantity": 25
+    "inventoryCount": 25
   },
   {
     "id": "a645114c-3b2a-4965-b42a-3330d4c5e487",
@@ -245,7 +245,7 @@
     "slug": "cumque-nam-voluptas",
     "price": 3607,
     "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
-    "quantity": 7
+    "inventoryCount": 7
   },
   {
     "id": "43ede065-8990-4085-beee-fbb8b8e6e6fc",
@@ -253,7 +253,7 @@
     "slug": "aut-nostrum-asperiores",
     "price": 3356,
     "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-    "quantity": 26
+    "inventoryCount": 26
   },
   {
     "id": "13a12e32-14a4-41c5-9e8b-ea4fdef14453",
@@ -261,7 +261,7 @@
     "slug": "laboriosam-vitae-aperiam",
     "price": 4837,
     "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-    "quantity": 9
+    "inventoryCount": 9
   },
   {
     "id": "f585c686-14fb-42a2-9779-ffa6897ae8e1",
@@ -269,7 +269,7 @@
     "slug": "dignissimos-voluptatem-blanditiis",
     "price": 4161,
     "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-    "quantity": 10
+    "inventoryCount": 10
   },
   {
     "id": "4c33b96c-a4cc-4230-ae09-d4ddab17bcd4",
@@ -277,7 +277,7 @@
     "slug": "unde-dignissimos-neque",
     "price": 1416,
     "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-    "quantity": 18
+    "inventoryCount": 18
   },
   {
     "id": "4b50fa84-685b-4040-bf49-c38fd94e3da9",
@@ -285,7 +285,7 @@
     "slug": "voluptatem-occaecati-ea",
     "price": 2636,
     "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-    "quantity": 18
+    "inventoryCount": 18
   },
   {
     "id": "432bc903-60ed-47bc-a437-889ec4989508",
@@ -293,7 +293,7 @@
     "slug": "odio-est-assumenda",
     "price": 2792,
     "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-    "quantity": 18
+    "inventoryCount": 18
   },
   {
     "id": "c5012d98-08b9-484e-8a43-738522a25bd3",
@@ -301,7 +301,7 @@
     "slug": "est-non-nihil",
     "price": 1658,
     "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
-    "quantity": 1
+    "inventoryCount": 1
   },
   {
     "id": "fbc526f0-4dd6-42d0-8506-ff6c70377d48",
@@ -309,7 +309,7 @@
     "slug": "et-est-est",
     "price": 442,
     "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-    "quantity": 5
+    "inventoryCount": 5
   },
   {
     "id": "f6d23f55-734c-4cae-be7e-7d0c9b53a73f",
@@ -317,7 +317,7 @@
     "slug": "impedit-inventore-et",
     "price": 1792,
     "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
-    "quantity": 19
+    "inventoryCount": 19
   },
   {
     "id": "5ea41635-5ec8-488e-8c5f-874b33394657",
@@ -325,7 +325,7 @@
     "slug": "minus-nesciunt-aut",
     "price": 1740,
     "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-    "quantity": 29
+    "inventoryCount": 29
   },
   {
     "id": "d97496a4-c311-4273-960c-058b2d133fe7",
@@ -333,7 +333,7 @@
     "slug": "consectetur-et-enim",
     "price": 4937,
     "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-    "quantity": 13
+    "inventoryCount": 13
   },
   {
     "id": "57418d07-e70a-45c0-8608-434f77f809f4",
@@ -341,7 +341,7 @@
     "slug": "ut-ut-nulla",
     "price": 1653,
     "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-    "quantity": 16
+    "inventoryCount": 16
   },
   {
     "id": "16eb4b87-4ba2-4c8d-9b45-e22a47f52683",
@@ -349,7 +349,7 @@
     "slug": "placeat-accusantium-dolores",
     "price": 4491,
     "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-    "quantity": 21
+    "inventoryCount": 21
   },
   {
     "id": "9474c14c-f758-4b83-beab-7db600107fb9",
@@ -357,7 +357,7 @@
     "slug": "saepe-veniam-quia",
     "price": 4625,
     "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-    "quantity": 23
+    "inventoryCount": 23
   },
   {
     "id": "ef94b91c-19b4-405c-a294-2b358b9ec70d",
@@ -365,7 +365,7 @@
     "slug": "beatae-quasi-est",
     "price": 3390,
     "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-    "quantity": 11
+    "inventoryCount": 11
   },
   {
     "id": "adf4434b-68fc-495a-ab6c-fcd315de54e7",
@@ -373,7 +373,7 @@
     "slug": "quos-quasi-et",
     "price": 920,
     "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-    "quantity": 21
+    "inventoryCount": 21
   },
   {
     "id": "3e7782fe-efc2-44d0-9d00-c7983d9d1419",
@@ -381,7 +381,7 @@
     "slug": "quia-sapiente-consequatur",
     "price": 4111,
     "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-    "quantity": 15
+    "inventoryCount": 15
   },
   {
     "id": "b32f1207-c8ec-4712-b2b9-1109df011a74",
@@ -389,7 +389,7 @@
     "slug": "autem-provident-magni",
     "price": 4328,
     "description": "The Football Is Good For Training And Recreational Purposes",
-    "quantity": 10
+    "inventoryCount": 10
   },
   {
     "id": "f96c6bf8-304a-44c8-8f8b-06214d1d7a81",
@@ -397,6 +397,6 @@
     "slug": "odit-assumenda-laboriosam",
     "price": 2899,
     "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-    "quantity": 11
+    "inventoryCount": 11
   }
 ]
