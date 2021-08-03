@@ -20,6 +20,11 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item px-3">
+              <router-link class="nav-link" :to="{ name: 'Products' }"
+                >Products</router-link
+              >
+            </li>
+            <li class="nav-item px-3">
               <router-link class="nav-link" :to="{ name: 'About' }"
                 >About</router-link
               >

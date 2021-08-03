@@ -56,7 +56,7 @@ const routes = [{
     },
     {
         path: '/products',
-        name: 'Prodcuts',
+        name: 'Products',
         component: () =>
             import ('../views/Products')
     },
@@ -73,8 +73,8 @@ const router = createRouter({
 });
 
 router.beforeEach((to) => {
-    //  const layout = to ? .meta ? .layout || 'DefaultLayout';
-    // store.commit('SET_LAYOUT', layout);
+    const layout = to.meta && to.meta.layout ? to.meta.layout : 'DefaultLayout';
+    store.commit('SET_LAYOUT', layout);
 });
 
 export default router;
