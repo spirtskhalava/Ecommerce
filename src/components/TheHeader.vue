@@ -42,6 +42,7 @@
         <div>
           <ButtonDefault>
             <i class="bi bi-cart4"></i>
+            ${{$store.getters['cart/total']}}
           </ButtonDefault>
         </div>
       </div>

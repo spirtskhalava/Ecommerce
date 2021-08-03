@@ -3,14 +3,13 @@ export default {
     state() {
 
         return {
-            list: [],
-            sum: 0
+            list: []
 
         }
     },
     mutations: {
         add(state, product) {
-            state.sum += product.price;
+
             const foundItem = state.list.find(item => item.id == product.id);
             if (foundItem) {
                 foundItem.quantity++;
@@ -22,6 +21,16 @@ export default {
 
         }
 
+    },
+
+    getters: {
+        total(state) {
+            let sum = 0;
+            state.list.forEach((single) => {
+                sum += single.quantity * single.price;
+            })
+            return sum;
+        }
     }
 
 
