@@ -58,7 +58,7 @@ const routes = [{
         path: '/products',
         name: 'Products',
         component: () =>
-            import ('../views/Products')
+            import ('../views/Products.vue')
     },
     {
         path: '/:match(.*)',

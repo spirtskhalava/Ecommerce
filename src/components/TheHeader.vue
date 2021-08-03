@@ -57,5 +57,6 @@
   width: 100%;
   background-color: #f5f5f5;
   box-shadow: 0 2px 12px #cccc;
+  z-index: 2000;
 }
 </style>
