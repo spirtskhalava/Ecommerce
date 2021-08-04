@@ -40,10 +40,10 @@
           </ul>
         </div>
         <div>
-          <ButtonDefault>
+          <router-link to="/cart" tag="button">
             <i class="bi bi-cart4"></i>
             ${{$store.getters['cart/total']}}
-          </ButtonDefault>
+          </router-link>
         </div>
       </div>
     </nav>

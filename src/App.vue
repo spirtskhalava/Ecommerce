@@ -19,6 +19,11 @@ export default {
     DefaultLayout,
     Content
   },
+  mounted(){
+ if(localStorage.getItem("foundItem")){
+this.$store.commit("cart/set",JSON.parse(localStorage.getItem("foundItem")));
+      }
+  },
   computed: {
     ...mapGetters({
       currentLayout: 'currentLayout'

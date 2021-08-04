@@ -19,6 +19,24 @@ export default {
                 state.list.push(product);
             }
 
+            localStorage.setItem("foundItem", JSON.stringify(state.list));
+
+        },
+        set(state, list) {
+            state.list = list
+        },
+        decrease(state, product) {
+            const item = state.list.find(item => item.id == product.id);
+            if (item.quantity == 1) {
+                state.list = state.list.filter(item => item.id !== product.id);
+            } else {
+                item.quantity--;
+            }
+
+
+        },
+        remove(state, id) {
+            state.list = state.list.filter(item => item.id !== id);
         }
 
     },
@@ -30,6 +48,12 @@ export default {
                 sum += single.quantity * single.price;
             })
             return sum;
+        },
+        productIds(state) {
+            return state.list.map(product => {
+
+                return product.id
+            })
         }
     }
 
