@@ -5,21 +5,22 @@
       <h5 class="card-title">{{ product.title }}</h5>
       <p class="card-text">{{ product.description }}</p>
       <div v-if="count">
- <increaseOrDecrease :product="this.product"/>
+        <increaseOrDecrease :product="this.product" />
       </div>
       <router-link :to="`/product/${product.slug}`" class="btn btn-primary"
         >Learn More</router-link
-      > 
+      >
       <ButtonDefault @click="addCart(product)">
-          <i class="bi bi-cart-plus"></i>
+        <i class="bi bi-cart-plus"></i>
       </ButtonDefault>
     </div>
   </div>
 </template>
 
 <script>
-import { mapGetters, mapMutations } from 'vuex'
-import increaseOrDecrease from '@/components/increaseOrDecrease.vue'
+import { mapGetters, mapMutations } from 'vuex';
+import increaseOrDecrease from '@/components/increaseOrDecrease.vue';
+
 export default {
   props: {
     product: {
@@ -27,29 +28,21 @@ export default {
       required: true
     }
   },
-  components:{
-      increaseOrDecrease
+  components: {
+    increaseOrDecrease
   },
-  computed:{
-      ...mapGetters({
-     productIds:'cart/productIds'
-
-      }),
-      count(){
-          return this.productIds.includes(this.product.id);
-      },
-
-
+  computed: {
+    ...mapGetters({
+      productIds: 'cart/productIds'
+    }),
+    count() {
+      return this.productIds.includes(this.product.id);
+    }
   },
-  methods:{
-  
-
-  ...mapMutations({
-   addCart:"cart/add"
-
-  })
-  
-
+  methods: {
+    ...mapMutations({
+      addCart: 'cart/add'
+    })
   }
 };
 </script>
