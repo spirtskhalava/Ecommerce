@@ -33,11 +33,12 @@ export default {
     },
     getters: {
         total(state) {
-            let sum = 0;
-            state.list.forEach((single) => {
-                sum += single.quantity * single.price;
-            });
-            return sum;
+            // let sum = 0;
+            // state.list.forEach((single) => {
+            //     sum += single.quantity * single.price;
+            // });
+            // return sum;
+            return state.list.reduce((sum, item) => sum + item.price * item.quantity, 0);
         },
         productIds(state) {
             return state.list.map(product => product.id);

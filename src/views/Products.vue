@@ -22,7 +22,7 @@ import axios from 'axios';
 
 export default {
   components: {
-    ProductItem,
+    ProductItem
   },
   data() {
     return {
@@ -34,8 +34,6 @@ export default {
     axios.get('/products.json').then(response => {
       this.products = response.data;
     });
-     
-     
   },
   computed: {
     productList() {

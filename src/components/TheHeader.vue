@@ -18,37 +18,29 @@
           class="collapse navbar-collapse justify-content-center"
           id="navbarNav"
         >
-          <ul class="navbar-nav">
-            <li class="nav-item px-3">
-              <router-link class="nav-link" :to="{ name: 'Products' }"
-                >Products</router-link
-              >
-            </li>
-            <li class="nav-item px-3">
-              <router-link class="nav-link" :to="{ name: 'About' }"
-                >About</router-link
-              >
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/Login">Login</router-link>
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/Register"
-                >Registration</router-link
-              >
-            </li>
-          </ul>
+          <BaseMenu />
         </div>
         <div>
-          <router-link to="/cart" tag="button">
-            <i class="bi bi-cart4"></i>
-            ${{$store.getters['cart/total']}}
-          </router-link>
+          <CartButton />
         </div>
       </div>
     </nav>
   </header>
 </template>
+
+<script>
+import BaseMenu from '@/components/Menu/BaseMenu.vue';
+import CartButton from '@/components/Cart/CartButton.vue';
+
+export default {
+  name: 'TheHeader',
+  components: {
+    BaseMenu,
+    CartButton
+  }
+};
+</script>
+
 
 <style lang="scss">
 .header {

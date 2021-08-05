@@ -12,12 +12,16 @@ export default {
     };
   },
   mounted() {
-    axios.get('/products.json').then(response => {
-      this.product = response.data.find(
-        product => product.slug === this.$route.params.slug
-      );
-    });
+    this.fetchProduct();
   },
-  methods: {}
+  methods: {
+    fetchProduct() {
+      axios.get('/products.json').then(response => {
+        this.product = response.data.find(
+          product => product.slug === this.$route.params.slug
+        );
+      });
+    }
+  }
 };
 </script>

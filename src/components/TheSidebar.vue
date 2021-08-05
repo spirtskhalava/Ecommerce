@@ -6,22 +6,24 @@
       </router-link>
     </div>
     <div class="d-flex align-items-center justify-content-center">
-      <ButtonDefault>
-        <i class="bi bi-cart4"></i>
-      </ButtonDefault>
+      <CartButton />
     </div>
     <nav class="nav flex-column">
-      <a class="nav-link active" href="#">Active</a>
-      <a class="nav-link" href="#">Link</a>
-      <a class="nav-link" href="#">Link</a>
-      <a class="nav-link disabled" href="#">Disabled</a>
+      <BaseMenu />
     </nav>
   </aside>
 </template>
 
 <script>
+import BaseMenu from '@/components/Menu/BaseMenu.vue';
+import CartButton from '@/components/Cart/CartButton.vue';
+
 export default {
-  name: 'TheSidebar'
+  name: 'TheSidebar',
+  components: {
+    BaseMenu,
+    CartButton
+  }
 };
 </script>
 
