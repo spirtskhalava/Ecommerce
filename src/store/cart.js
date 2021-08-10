@@ -43,5 +43,12 @@ export default {
         productIds(state) {
             return state.list.map(product => product.id);
         }
+    },
+    actions: {
+        add(context, product) {
+            context.commit('add', product);
+            context.dispatch('Notification/add', { title: 'welcome', content: 'Product added', image: '' }, { root: true });
+        }
+
     }
 };

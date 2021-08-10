@@ -32,6 +32,7 @@
 import BaseMenu from '@/components/Menu/BaseMenu.vue';
 import CartButton from '@/components/Cart/CartButton.vue';
 
+
 export default {
   name: 'TheHeader',
   components: {

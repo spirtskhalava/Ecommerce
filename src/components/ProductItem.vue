@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import { mapGetters, mapMutations } from 'vuex';
+import { mapGetters, mapActions } from 'vuex';
 import increaseOrDecrease from '@/components/increaseOrDecrease.vue';
 
 export default {
@@ -40,7 +40,7 @@ export default {
     }
   },
   methods: {
-    ...mapMutations({
+    ...mapActions({
       addCart: 'cart/add'
     })
   }

@@ -1,25 +1,25 @@
 <template>
-  <ButtonDefault @click="decreaseProduct">-</ButtonDefault
+  <ButtonDefault @click="decreaseProduct(product)">-</ButtonDefault
   ><span>{{ productQuantity }}</span
   ><ButtonDefault @click="addCart(product)">+</ButtonDefault>
 </template>
+
 <script>
-import { mapMutations } from 'vuex';
+import useCart from '@/hooks/cart';
 
 export default {
+  setup(){
+   const cart=useCart();
+   return {
+     addCart: cart.addToCart,
+     decreaseProduct:cart.decreaseProduct
+   };
+  },
   props: {
     product: {
       type: Object,
       required: true
     }
-  },
-  methods: {
-    decreaseProduct() {
-      this.$store.commit('cart/decrease', this.product);
-    },
-    ...mapMutations({
-      addCart: 'cart/add'
-    })
   },
   computed: {
     productQuantity() {

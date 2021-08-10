@@ -1,5 +1,6 @@
 <template>
   <component :is="currentLayout">
+    <Alert/>
     <router-view />
   </component>
 </template>
@@ -7,6 +8,7 @@
 <script>
 import { defineAsyncComponent } from 'vue';
 import { mapGetters } from 'vuex';
+import Alert from '@/components/Alert.vue';
 
 const DefaultLayout = defineAsyncComponent(() =>
   import('@/layouts/Default.vue')
@@ -17,7 +19,8 @@ export default {
   name: 'App',
   components: {
     DefaultLayout,
-    Content
+    Content,
+    Alert
   },
   mounted() {
     if (localStorage.getItem('foundItem')) {

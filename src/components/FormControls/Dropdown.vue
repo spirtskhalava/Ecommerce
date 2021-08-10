@@ -16,27 +16,16 @@ export default{
             default: ''
         }
     },
-data(){
-    return {
-sortBy:''
-    };
-
-
-},
-watch: {
-    sortBy(value) {
-        // this.$emit('input', value); //For Vue 2
-        this.$emit('update:modelValue', value);
-    },
-    modelValue: {
-        immediate:true,
-        handler(value) {
-this.sortBy = value;
+    computed: {
+        sortBy: {
+            get() {
+                return this.modelValue;
+            },
+            set(value) {
+                this.$emit('update:modelValue', value);
+            }
         }
     }
-}
-
-
 
 };
 </script>

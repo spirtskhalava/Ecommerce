@@ -1,5 +1,6 @@
 import { createStore } from 'vuex';
 import cart from './cart';
+import notification from './notification';
 
 export default createStore({
     state: {
@@ -15,6 +16,7 @@ export default createStore({
     },
     actions: {},
     modules: {
-        cart
+        cart,
+        Notification: notification
     }
 });

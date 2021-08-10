@@ -6,14 +6,15 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex';
+import useCart from '@/hooks/cart';
 
 export default {
   name: 'CartButton',
-  computed: {
-    ...mapGetters({
-      total: 'cart/total'
-    })
-  }
+  setup(){
+    const {total}  = useCart();
+    return  {
+      total
+    };
+  },
 };
 </script>
